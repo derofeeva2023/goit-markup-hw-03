@@ -80,10 +80,12 @@ color: var(--secondary-font-color);
 .top-menu a{
 color: var(--secondary-font-color);
 }
-.top-menu a:hover, a:focus {
+.top-menu a:hover, a:focus{
     color:var(--accent-color);
 }
-
+.current-menu-item a{
+    color:var(--accent-color);
+}
 /* Site contact info*/
 .contact-info a{
     color: var(--main-font-color);
