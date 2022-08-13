@@ -7,6 +7,7 @@
     --logo-color:#000000;
     --title-background-color:#2F303A;
     --team-background-color: #F5F4FA;
+    --horizontal-line: #ECECEC;
 }
 /*Global styles*/
 .container{
@@ -70,7 +71,12 @@ color: var(--logo-color);
     display: flex;
     align-items: center;
 }
-
+.header-line{
+    color: var(--horizontal-line);
+    margin: 0;
+    border: 1px solid;
+    padding-bottom: 22px;
+}
 
 .top-menu{
 display: flex;
