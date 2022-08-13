@@ -47,6 +47,8 @@ a{
 }
 /*Logo*/
 .logo{
+    padding-top: 32px;
+    padding-bottom: 32px;   
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -61,15 +63,16 @@ color: var(--logo-color);
 .logo-white{
     color:var(--main-light-color);
 }
-.logo-position{
-    padding-top:60px;
-    padding-bottom: 20px;
-}
-.logo-header{
-    padding-top: 24px;
-}
+
 /*Menu*/
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+
 .top-menu{
+display: flex;
+margin-left: 93px;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -77,18 +80,40 @@ letter-spacing: 0.02em;
 color: var(--secondary-font-color);
 
 }
-.top-menu a{
+
+.top-menu .menu-link{
+
+padding-top: 32px;
+padding-bottom: 32px;
+
 color: var(--secondary-font-color);
+
 }
 .top-menu a:hover, a:focus{
     color:var(--accent-color);
 }
+.top-menu .item:not(:last-child) {
+margin-right: 50px;
+}
+
 .current-menu-item a{
     color:var(--accent-color);
 }
+.menu-contact{
+    display: flex;
+margin-left: auto;
+}
+.menu-contact a{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px  
+}
+.menu-contact .item:not(:last-child) {
+    margin-right: 50px;
+    }
 /* Site contact info*/
 .contact-info a{
-    color: var(--main-font-color);
+ color: var(--main-font-color);
     font-weight: 500;
     font-size: 14px;
     line-height:1.14;
@@ -97,6 +122,7 @@ color: var(--secondary-font-color);
 .contact-info a:hover, a:focus {
     color:var(--accent-color);
 }
+
 /*Main title*/
 .title{
 margin-top: 0;
