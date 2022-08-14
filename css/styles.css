@@ -8,6 +8,7 @@
     --title-background-color:#2F303A;
     --team-background-color: #F5F4FA;
     --horizontal-line: #ECECEC;
+    --border-color: #EEEEEE;
 }
 /*Global styles*/
 .container{
@@ -75,9 +76,14 @@ color: var(--logo-color);
     color: var(--horizontal-line);
     margin: 0;
     border: 1px solid;
-    padding-bottom: 22px;
+    margin-bottom: 22px;
 }
-
+.header-line2{
+    color: var(--horizontal-line);
+    margin: 0;
+    border: 1px solid;
+    margin-bottom: 94px;
+}
 .top-menu{
 display: flex;
 margin-left: 93px;
@@ -97,16 +103,14 @@ padding-bottom: 32px;
 color: var(--secondary-font-color);
 
 }
-.top-menu a:hover, a:focus{
+.top-menu a:hover, a:focus, a:current{
     color:var(--accent-color);
 }
 .top-menu .item:not(:last-child) {
 margin-right: 50px;
 }
 
-.current-menu-item a{
-    color:var(--accent-color);
-}
+
 .menu-contact{
     display: flex;
 margin-left: auto;
@@ -315,17 +319,19 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--secondary-font-color);
-margin-top: 0;
-margin-bottom: 0;
+margin: 0;
+padding-top: 20px;
+padding-bottom: 4px;
+padding-left: 24px;
 }
 .project-type{
-    font-weight: 400;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 color: var(--main-font-color);
-margin-top: 0;
-margin-bottom: 0;
-
+margin: 0;
+padding-bottom: 20px;
+padding-left: 24px;
 }
 /*Filter buttons*/
 
@@ -342,12 +348,17 @@ button{
     line-height:1.6;
     border-radius: 4px;
     padding: 6px 22px 6px 22px;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.button-position{
-    margin-top:94px;
+.btn-group{
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 50px;
+}
+.btn-group li:not(:last-child){
+margin-right: 8px;
 }
 .btn-group button:hover, button:focus{
    background-color :var(--accent-color);
@@ -355,8 +366,18 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-
 /*Project cards*/
-.cards{
-    margin-bottom: 94px;
+.border-box{
+    border: 1px solid;
+    color: var(--border-color);
+    width: 370px;
 }
+.img-card{
+    display: block;
+}
+.cards{
+    display: grid;
+}
+.cards li:not(:last-child){
+    margin-right: 30px;
+    }
