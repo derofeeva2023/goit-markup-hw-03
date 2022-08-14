@@ -103,7 +103,7 @@ padding-bottom: 32px;
 color: var(--secondary-font-color);
 
 }
-.top-menu a:hover, a:focus, a:current{
+.top-menu a:hover, a:focus{
     color:var(--accent-color);
 }
 .top-menu .item:not(:last-child) {
