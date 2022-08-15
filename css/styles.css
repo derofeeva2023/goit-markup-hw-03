@@ -333,9 +333,8 @@ line-height: 2;
 letter-spacing: 0.06em;
 color: var(--secondary-font-color);
 margin: 0;
-padding-top: 20px;
-padding-bottom: 4px;
-padding-left: 24px;
+margin-bottom: 4px;
+
 }
 .project-type{
 font-weight: 400;
@@ -343,8 +342,7 @@ font-size: 16px;
 line-height: 1.87;
 color: var(--main-font-color);
 margin: 0;
-padding-bottom: 20px;
-padding-left: 24px;
+
 }
 /*Filter buttons*/
 .site-nav{
@@ -387,6 +385,7 @@ margin-right: 8px;
     border: 1px solid;
     color: var(--border-color);
     width: 370px;
+    padding: 20px 24px;
 }
 
 .cards{
