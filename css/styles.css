@@ -50,7 +50,7 @@ img {
 
 a{
     text-decoration: none;
-    display: inline-block;
+    
 }
 /*Logo*/
 .logo{
@@ -97,7 +97,7 @@ color: var(--secondary-font-color);
 padding-top: 32px;
 padding-bottom: 32px;
 color: var(--secondary-font-color);
-
+display: inline-block;
 }
 .top-menu a:hover, a:focus{
     color:var(--accent-color);
@@ -324,6 +324,7 @@ font-size: 26px;
 line-height:1.19;
 margin-bottom: 20px;
 color: var(--logo-color);
+display: inline-block;
 }
 /*Portfolio*/
 .section-title{
