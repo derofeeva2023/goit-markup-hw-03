@@ -187,10 +187,12 @@ color: var(--secondary-font-color);
 margin:0;
 margin-bottom: 10px;
 }
-
+.features-block{
+    padding-bottom: 94px;
+}
 .features-list {
     display: flex;
-    padding-bottom: 94px;
+   
 }
 .features-list li:not(:last-child){
 margin-right: 30px;
