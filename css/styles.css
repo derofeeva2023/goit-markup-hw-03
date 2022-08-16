@@ -80,6 +80,7 @@ color: var(--logo-color);
 .bottom-line{
     border-bottom: 1px solid;
     color: var(--horizontal-line);
+    margin-bottom: 22px;
 }
 
 .top-menu{
@@ -136,7 +137,8 @@ margin-left: auto;
 background-color: var(--title-background-color);
 margin-top: 0;
 text-align: center;
-margin-bottom:72px;
+padding-top: 200px;
+padding-bottom: 200px;
         }
        
 .title{
@@ -152,8 +154,7 @@ color:var(--main-light-color);
 background-color: var(--title-background-color);
 }
 .hero-title{
-    padding-top: 200px;
-    padding-bottom: 200px;
+   
     margin-top: 22px;
 }
 .service-button{
@@ -188,6 +189,7 @@ margin:0;
 margin-bottom: 10px;
 }
 .features-block{
+    padding-top:72px;
     padding-bottom: 94px;
 }
 .features-list {
@@ -274,7 +276,13 @@ margin-bottom: 10px;
     display: flex;
   margin-top:0;
    text-align: center;
-   width: 270px;
+   
+}
+.team-alignment li{
+    width: 270px;
+}
+.person p{
+    margin: 0;
 }
 .team-alignment li:not(:last-child){
     margin-right: 30px;
